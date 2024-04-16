@@ -1,4 +1,4 @@
-# Relatório sobre tarefas de processamento de imagem
+# Relatório sobre tarefas de processamento de imagem - Allan Casado
 ## Introdução
 
 De acordo com o artigo "What is Computer Vision and Machine Vision? A Guide for Beginners", da empresa Roboflow: "Visão computacional é a capacidade de um computador ver e entender o mundo físico. Com visão computacional, os computadores podem aprender a identificar, reconhecer e localizar a posição de objetos."
