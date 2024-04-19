@@ -33,6 +33,8 @@ Um "ponto chave" em uma imagem pode ser definido com base em três aspectos
 * Invariância: ele deve ser invariante em relação a rotações, mudanças na escala, iluminação...
 * Repetibilidade: um ponto chave deve ser detectável de forma confiável em diferentes instâncias do mesmo objeto ou cena.
 
+Dessa maneira, essa técnica pode ser aplicada em diferentes casos de uso, como por exemplo:
+* Estimativa de pose humana: essa tecnologia é 
 
 
 ## Produtos comerciais relacionados e seus segmentos de mercado
