@@ -26,5 +26,14 @@ As aplicações desse tipo de tarefa são  variadas e abrangentes. Algumas das p
 
 ### Detecção de pontos chave
 
+A detecção de pontos chave é uma tarefa de visão computacional que tem como essência a identificação e utilização de pontos específicos em imagens. A deteccção desses pontos mais importantes permite que os computadores não apenas "vejam", mas também compreendam as relações entre pontos em uma imagem ou vídeo.
+
+Um "ponto chave" em uma imagem pode ser definido com base em três aspectos
+* Unicidade: ele deve ser único e facilmente distinguível de outro ponto, seja pela cor, intensidade ou algum outro fator.
+* Invariância: ele deve ser invariante em relação a rotações, mudanças na escala, iluminação...
+* Repetibilidade: um ponto chave deve ser detectável de forma confiável em diferentes instâncias do mesmo objeto ou cena.
+
+
+
 ## Produtos comerciais relacionados e seus segmentos de mercado
 ## Teste de um produto relacionado
