@@ -66,3 +66,10 @@ Desse modo, esse produto pode ser integrado em diferentes contextos e em diferen
 Mais informações em https://www.tensorflow.org/lite/examples/pose_estimation/overview?hl=pt
 
 ## Teste de um produto relacionado
+
+Realizei o teste do produto de estimativa de pose do Tensorflow e fiquei bastante surpreso com a precisão do modelo, que conseguiu identificar as principais articulações do corpo muito bem. Experimentei colocar o fone de ouvido e ver como isso impactaria na detecção das orelhas e mesmo com esse "obstáculo" o modelo se saiu bem. No entanto, notei que ao sair da imagem e deixar apenas o fundo, o modelo se confundiu um pouco, identificando alguns pontos chave em minha cadeira, embora com baixa confiança. Anexei imagens que ilustram esses resultados para demonstrar um pouco da minha experiência com o produto.
+
+![](img1.png)
+![](img2.png)
+![](img3.png)
+![](img4.png)
