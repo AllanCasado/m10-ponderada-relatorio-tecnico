@@ -63,5 +63,6 @@ O produto utiliza modelos como MoveNet e PoseNet para analisar imagens e vídeos
 
 Desse modo, esse produto pode ser integrado em diferentes contextos e em diferentes plataformas, incluindo dispositivos móveis e aplicações web, por meio do Tensorflow Lite (uma versão otimizada do Tensorflow para dispositivos móveis) e do Tensorflow JS.
 
+Mais informações em https://www.tensorflow.org/lite/examples/pose_estimation/overview?hl=pt
 
 ## Teste de um produto relacionado
