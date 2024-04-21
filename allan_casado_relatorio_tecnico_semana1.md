@@ -34,8 +34,34 @@ Um "ponto chave" em uma imagem pode ser definido com base em três aspectos
 * Repetibilidade: um ponto chave deve ser detectável de forma confiável em diferentes instâncias do mesmo objeto ou cena.
 
 Dessa maneira, essa técnica pode ser aplicada em diferentes casos de uso, como por exemplo:
-* Estimativa de pose humana: essa tecnologia é 
-
+* Estimativa de pose humana: busca-se, com o uso dessa técnica, identificar "keypoints" associados a pessoas. Isso pode ser aplicado em um contexto de prática de exercício físico, para monitorar a postura e movimentos durante atividades físicas.
+* Estimativa da pose da mão: esta abordagem foca em definir pontos-chave nas mãos humanas, o que pode ser utilizado, por exemplo, em interfaces de usuário onde o controle se dá através de gestos, como sistemas de realidade virtual ou dispositivos inteligentes.
+* Keypoints de face: nesse caso de uso tem-se o objetivo de identificar "keypoints" de faces humanas, o que em um contexto de reconhecimento facial é essencial para identificar características individuais no rosto, facilitando o reconhecimento de identidade.
 
 ## Produtos comerciais relacionados e seus segmentos de mercado
+
+###  Google Cloud Visual Inspection AI
+
+O Visual Inspection AI é uma solução de inteligência artificial desenvolvida para automatizar e otimizar a inspeção visual em processos de produção, facilitando a inspeção de qualidade de produtos fabricados. Por meio da utilização de técnicas de detecção de objetos, essa ferramenta permite que as empresas identifiquem defeitos com precisão em diferentes tipos de itens fabricados em diferentes indústrias.
+
+Esse produto é direcionado principalmente para o setor de manufatura industrial, abrangendo uma variedade de indústrias nesse setor, como a automotiva, eletrônicos e semicondutores. Os casos de uso incluem desde o inspecionamento de soldas em chassis de veículos até a análise de defeitos em placas de circuito impresso (PCBs) e wafers de silício.
+
+Essa ferramenta permite que as empresas treinem e implantem rapidamente modelos de IA para inspeção visual sem exigir conhecimento técnico aprofundado e com poucas imagens rotuladas, a partir de uma interface do usuário simples e intuitiva.
+
+Mais informações em https://cloud.google.com/solutions/visual-inspection-ai#all-features
+
+### Tensorflow Pose Estimation
+
+O Tensorflow Pose Estimation é um produto oferecido pelo Tensorflow que abrange a implementação de modelos de visão computacional que utilizam da técnica de detecção de pontos chave para estimar as posições das principais articulações do corpo humano em imagens ou vídeos.
+
+Esses modelos podem ser utilizados em uma variedade de segmentos de mercado, os quais incluem:
+* Fitness e Esportes: para análise e melhoria da técnica de exercícios e movimentos esportivos.
+* Segurança e Vigilância: detecção de comportamentos ou atividades anômalas em ambientes monitorados.
+* Saúde e Reabilitação: monitoramento de movimentos para fisioterapia e reabilitação.
+
+O produto utiliza modelos como MoveNet e PoseNet para analisar imagens e vídeos, identificando pontos-chave do corpo humano, como cotovelos, joelhos e ombros. Como input o modelo recebs a entrada de imagem e produz uma saída tabular dos pontos-chave detectados, com suas respectivas pontuações de confiança, que indicam a precisão da detecção.
+
+Desse modo, esse produto pode ser integrado em diferentes contextos e em diferentes plataformas, incluindo dispositivos móveis e aplicações web, por meio do Tensorflow Lite (uma versão otimizada do Tensorflow para dispositivos móveis) e do Tensorflow JS.
+
+
 ## Teste de um produto relacionado
